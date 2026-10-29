@@ -1,0 +1,32 @@
+{
+  "collections": {
+    "students": {
+      "description": "Enrolled student records with class, section, monthly fee and contact",
+      "fields": ["id", "rollNo", "name", "fatherName", "class", "section", "gender", "dob", "bForm", "phone", "address", "enrollmentDate", "status", "monthlyFee"]
+    },
+    "admissions": {
+      "description": "Online admission applications submitted by parents/students",
+      "fields": ["id", "applicantName", "fatherName", "fatherCnic", "phone", "email", "dob", "gender", "classApplied", "previousSchool", "previousMarksPercentage", "address", "appliedDate", "status", "interviewDate", "assignedRollNo", "notes"]
+    },
+    "feeChallans": {
+      "description": "Monthly and term fee vouchers with digital transaction receipts",
+      "fields": ["id", "challanNo", "studentId", "rollNo", "studentName", "fatherName", "class", "monthYear", "issueDate", "dueDate", "breakdown", "totalAmount", "afterDueDateAmount", "status", "paymentMethod", "paymentDate", "transactionId", "receiptNote"]
+    },
+    "results": {
+      "description": "Official student Detailed Marks Certificate (DMC) reports",
+      "fields": ["id", "studentId", "rollNo", "studentName", "fatherName", "class", "section", "examType", "session", "subjects", "totalMarks", "obtainedMarks", "percentage", "grade", "position", "status", "remarks", "attendancePercentage", "issuedDate"]
+    },
+    "notices": {
+      "description": "School circulars, exam datesheets and notifications",
+      "fields": ["id", "title", "date", "category", "content", "isUrgent", "author"]
+    },
+    "teachers": {
+      "description": "Faculty staff details, qualifications and assigned sections",
+      "fields": ["id", "name", "email", "phone", "qualification", "assignedClass", "assignedSubject", "joinDate", "status"]
+    },
+    "homework": {
+      "description": "Daily homework and syllabus assignments",
+      "fields": ["id", "class", "subject", "teacherName", "assignedDate", "dueDate", "title", "description"]
+    }
+  }
+}
