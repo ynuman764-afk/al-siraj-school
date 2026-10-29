@@ -6,7 +6,7 @@ export const initialSchoolData: SchoolDatabase = {
     schoolUrduName: "السراج ماڈل ہائی اسکول",
     tagline: "Illuminating Minds with Knowledge, Faith & Character",
     taglineUrdu: "نورِ علم و عمل — ایک درخشاں مستقبل کی ضمانت",
-    regNo: "REG-ED-2012/8492",
+    regNo: "121275",
     affiliation: "Affiliated with BISE (Board of Intermediate & Secondary Education)",
     address: "Siraj Campus, Main Model Town Road, Near Education Complex, Punjab, Pakistan",
     phone: "+92 300 7861234",
@@ -462,7 +462,7 @@ export const initialSchoolData: SchoolDatabase = {
       date: "2026-10-10",
       category: "Admissions",
       isUrgent: true,
-      content: "Al-Siraj Model High School announces admissions for the new academic session. Limited seats available for Pre-Medical, Pre-Engineering, and Computer Science groups. Apply online through our official portal or visit campus.",
+      content: "Al-Siraj Model High School announces admissions for the new academic session. Limited seats available for Pre-Medical, Pre-Engineering, and Computer Science groups. Apply online through the admissions portal before the deadline.",
       author: "Admission Directorate"
     },
     {
@@ -471,7 +471,7 @@ export const initialSchoolData: SchoolDatabase = {
       date: "2026-10-18",
       category: "Exams",
       isUrgent: false,
-      content: "Mid-Term examinations for Classes 6th through 10th will commence from November 15, 2026. Detailed subject-wise schedule has been published on the student portal. Roll number slips must be cleared with account dues.",
+      content: "Mid-Term examinations for Classes 6th through 10th will commence from November 15, 2026. Detailed subject-wise schedule has been published on the student portal. Roll number slips must be printed before the exam start date.",
       author: "Controller of Examinations"
     },
     {
@@ -480,7 +480,7 @@ export const initialSchoolData: SchoolDatabase = {
       date: "2026-10-24",
       category: "Events",
       isUrgent: false,
-      content: "The annual science project fair and coding hackathon will take place in the Siraj Central Auditorium on November 28, 2026. Students from classes 7th to 10th can submit working models to their science in-charges.",
+      content: "The annual science project fair and coding hackathon will take place in the Siraj Central Auditorium on November 28, 2026. Students from classes 7th to 10th can submit working models and prototypes for evaluation.",
       author: "STEM & Robotics Club"
     },
     {
@@ -489,7 +489,7 @@ export const initialSchoolData: SchoolDatabase = {
       date: "2026-10-27",
       category: "Urgent",
       isUrgent: true,
-      content: "All respected parents and guardians are requested to attend the upcoming PTM on Saturday, November 7, from 09:00 AM to 01:00 PM to discuss their child's monthly academic progress and attendance.",
+      content: "All respected parents and guardians are requested to attend the upcoming PTM on Saturday, November 7, from 09:00 AM to 01:00 PM to discuss their child's monthly academic progress and co-curricular development.",
       author: "Principal's Office"
     },
     {
@@ -498,7 +498,7 @@ export const initialSchoolData: SchoolDatabase = {
       date: "2026-10-28",
       category: "Events",
       isUrgent: false,
-      content: "Special literary symposium and bilingual declamation contest celebrating Allama Iqbal will be hosted at Al-Siraj Model High School. Interested speakers should register with the Urdu/English faculty.",
+      content: "Special literary symposium and bilingual declamation contest celebrating Allama Iqbal will be hosted at Al-Siraj Model High School. Interested speakers should register with the Literary Society by November 3.",
       author: "Literary Society"
     }
   ],
